@@ -1,8 +1,8 @@
 language: minimal
 
-os:
-  - linux
-  - linux-ppc64le
+os: linux
+
+dist: xenial
 
 install: sudo apt-get update -y
 
