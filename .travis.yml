@@ -1,0 +1,10 @@
+language: minimal
+
+os:
+  - linux
+  - linux-ppc64le
+
+install: apt-get update -y
+
+script: sh script.sh
+
