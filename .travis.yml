@@ -4,7 +4,7 @@ os:
   - linux
   - linux-ppc64le
 
-install: apt-get update -y
+install: sudo apt-get update -y
 
 script: sh script.sh
 
